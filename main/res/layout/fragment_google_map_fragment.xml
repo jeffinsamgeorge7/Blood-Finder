@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".google_map_fragment">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        app:fab_addButtonColorNormal="#fece2f"
+        app:fab_addButtonPlusIconColor="@color/black"
+        app:fab_addButtonSize="mini"
+        app:fab_expandDirection="down"
+        app:fab_labelStyle="@style/LabelStyle"
+        app:fab_labelsPosition="right">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_donors"
+            style="@style/comic_sans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:src="@drawable/ic_blood_type"
+            android:tint="@color/black"
+            app:fab_colorNormal="@color/yellow"
+            app:fab_size="mini"
+            app:fab_title="Blood donors" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_hospitals"
+            style="@style/comic_sans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/yellow"
+            android:scaleType="center"
+            android:src="@drawable/ic_baseline_local_hospital_24"
+            android:tint="@color/black"
+            app:fab_size="mini"
+            app:fab_title="Nearby hospitals" />
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/enableTraffic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_traffic"
+        app:backgroundTint="#fece2f"
+        app:fabCustomSize="40dp"
+        app:tint="@color/black"
+        tools:ignore="ContentDescription,RelativeOverlap,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnMapType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_map_type"
+        app:backgroundTint="#fece2f"
+        app:fabCustomSize="40dp"
+        app:itemTextAppearance="@style/comic_sans"
+        app:tint="@color/black"
+        tools:ignore="ContentDescription,RelativeOverlap,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_baseline_wb_sunny_24"
+        app:backgroundTint="#fece2f"
+        app:fabCustomSize="40dp"
+        app:itemTextAppearance="@style/comic_sans"
+        app:tint="@color/black"
+        tools:ignore="ContentDescription,RelativeOverlap,SpeakableTextPresentCheck,ImageContrastCheck" />
+    <com.skyfishjy.library.RippleBackground
+        android:id="@+id/ripple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:rb_color="#fece2f"
+        app:rb_duration="3000"
+        app:rb_radius="32dp"
+        app:rb_rippleAmount="4"
+        app:rb_scale="6" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/currentLoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="590dp"
+        android:src="@drawable/ic_baseline_gps_fixed_24"
+        app:backgroundTint="#fece2f"
+        app:fabCustomSize="50dp"
+        app:tint="@color/black"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
+</RelativeLayout >

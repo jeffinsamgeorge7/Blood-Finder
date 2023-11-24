@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="bottom"
+    android:layout_height="200dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fece2f"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:layout_width="399dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:paddingTop="40dp"
+            android:src="@drawable/bloodlogo"
+            tools:ignore="ContentDescription"></ImageView>
+
+        <TextView
+            android:id="@+id/text_name_blood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:fontFamily="@font/comic_sans"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="@string/text_name_blood"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/text_email_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:fontFamily="@font/comic_sans"
+            android:gravity="center"
+            android:text="@string/text_email_id"
+            android:textSize="20sp"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+</LinearLayout>

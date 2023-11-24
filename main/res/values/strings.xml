@@ -1,0 +1,118 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">BLOOD-FINDER</string>
+    <string name="blood_point">Blood finder</string>
+    <string name="welcome">Welcome</string>
+    <string name="password">Enter Password</string>
+    <string name="email">Enter Email</string>
+    <string name="forgot_email">Enter Email</string>
+    <string name="login">Login</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="signup">signup</string>
+    <string name="create_account">Create Account</string>
+    <string name="forget_tpassword">Forget\tPassword</string>
+    <string name="reset_password">reset password</string>
+    <string name="create_account_">Create Account</string>
+    <string name="enter_name">NAME</string>
+    <string name="enter_gender">GENDER</string>
+    <string name="phone_no">PHONE NUMBER</string>
+    <string name="email_id">EMAIL ID</string>
+    <string name="address">ADDRESS</string>
+    <string name="input_password">PASSWORD</string>
+    <string name="confirm_password">CONFIRM PASSWORD</string>
+    <string name="blood_group">BLOOD GROUP</string>
+    <string name="blood_donor">IF YOU WANNA REGISTER AS A DONOR</string>
+    <string name="open_account">open account</string>
+    <string name="location">DISTRICT</string>
+    <string name="continue_btn">continue</string>
+    <string name="account_created">Account Created</string>
+    <string name="home">Home</string>
+    <string name="log_out">Log out</string>
+    <string name="rate_us">Rate us</string>
+    <string name="about">About</string>
+    <string name="blood_info">Blood info</string>
+    <string name="Google_Map">My Location</string>
+    <string name="sensor">Gps</string>
+    <string name="search_donor">Search Donor</string>
+    <string name="nav_home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="quote">Excuses never save a life, Blood donation does</string>
+    <string name="todo">TODO</string>
+    <string name="text_name_blood">Sample -> Blood Group</string>
+    <string name="text_email_id">sample@gmail.com</string>
+    <string name="profile_details">PROFILE DETAILS</string>
+    <string name="update_account">update account</string>
+    <string name="update_text">Update Account</string>
+    <string name="account_updated">Account Updated</string>
+    <string name="done">done</string>
+    <string name="post_request">Post Request</string>
+    <string name="post_btn">post</string>
+    <string name="blood_post_heading">BLOOD POST</string>
+    <string name="delete_post">delete post</string>
+    <string name="blood_post_deleted">Blood Post Deleted</string>
+    <string name="search_donor_head">SEARCH DONOR</string>
+    <string name="search_btn">search</string>
+    <string name="my_blood_post">My Blood post</string>
+    <string name="searched_result">Resulted Donors</string>
+    <string name="why_should_you_donate_blood">Why should you donate blood ?</string>
+    <string name="info" tools:ignore="TypographyDashes">The blood you give is a lifeline in an emergency and for people who need long-term treatments. Many people would not be alive today if donors had not generously given their blood. We need over 6000 blood donations every day to treat patients in need for people to give blood. Each year we need approximately 200000 new donors, as some donors can no longer give blood.Most people between ages of 17-65 are able to give blood. Around half our current donors are over 45. That is why we need more young people to start giving blood.</string>
+    <string name="rate">rate</string>
+    <string name="rate_the_application">Rate the app</string>
+    <string name="district">DISTRICT</string>
+    <style name="comic_sans">
+        <item name="android:fontFamily">@font/comic_sans</item>
+    </style>
+
+    <style name="LabelStyle">
+        <item name="android:background">@drawable/fab_label_colour</item>
+        <item name="android:fontFamily">@font/comic_sans</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
+
+    <string name="title_activity_google_maps">google_maps</string>
+    <string name="nearby_donors_fab">donors</string>
+    <string name="nearby_hospitals_fab">Hospitals</string>
+    <string name="search_place">Search </string>
+    <string name="type_normal">Normal</string>
+    <string name="type_satellite">Satellite</string>
+    <string name="type_hybrid">Hybrid</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="verify_email_id">VERIFY EMAIL - ID</string>
+    <string name="verify">VERIFY</string>
+    <string-array name="blood_groups">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+    <string-array name="locations">
+        <item>Thiruvananthapuram</item>
+        <item>Kollam</item>
+        <item>Pathanamthitta</item>
+        <item>Alappuzha</item>
+        <item>Kottayam</item>
+        <item>Idukki</item>
+        <item>Ernakulam</item>
+        <item>Thrissur</item>
+        <item>Palakkad</item>
+        <item>Malappuram</item>
+        <item>Kozhikode</item>
+        <item>Wayanad</item>
+        <item>Kannur</item>
+        <item>Kasaragod</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+    <string name="accessToken">pk.eyJ1IjoiamVmZmluMzEiLCJhIjoiY2xwYXRza3VvMGQxZjJpcHJvc3F0MzFlNyJ9.OhtiR9fvpHAKvzGcvhdPKA</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fece2f"
+    android:orientation="vertical"
+    android:layout_marginTop="55dp"
+    tools:showIn="@layout/appbar_dashboard"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/fragmentcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </FrameLayout>
+</LinearLayout>
