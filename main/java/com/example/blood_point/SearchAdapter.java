@@ -45,6 +45,7 @@ public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.SearchHold
         donor_data data = donor_Lists.get(position);
         holder.L1.setText("NAME : "+data.getName());
         holder.L2.setText("PHONE NO : "+data.getPhone_no());
+        holder.L3.setText("ADDRESS : "+data.getAddress());
         
     }
     @Override
