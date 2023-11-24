@@ -82,7 +82,8 @@ public class MyBloodpost extends AppCompatActivity {
                     L2.setVisibility(View.GONE);
                     L3.setVisibility(View.GONE);
                     L4.setVisibility(View.GONE);
-                    
+                    L5.setVisibility(View.GONE);
+                    No_post.setText("YOUR BLOOD REQUEST IS NOT BEING POSTED !");
                 }
             }
             @Override
