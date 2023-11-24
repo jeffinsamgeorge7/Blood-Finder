@@ -150,6 +150,7 @@ public class UpdateActivity extends AppCompatActivity {
     private void updateLocationInDatabase(String userId, double latitude, double longitude) {
         // Update latitude and longitude in the database
         db_ref.child(userId).child("LATITUDE").setValue(latitude);
+        db_ref.child(userId).child("LONGITUDE").setValue(longitude);
         
     }
 
